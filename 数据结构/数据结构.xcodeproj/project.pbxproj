@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A29917E212CF0A500C0376C /* 循环队列.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A29917D212CF0A500C0376C /* 循环队列.c */; };
+		0A299183212D0E3F00C0376C /* 自己调用自己.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A299182212D0E3F00C0376C /* 自己调用自己.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,9 @@
 		0A229AF5212C07000003B603 /* typedef_01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = typedef_01.c; sourceTree = "<group>"; };
 		0A229AF7212C072B0003B603 /* stack_01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack_01.c; sourceTree = "<group>"; };
 		0A29917D212CF0A500C0376C /* 循环队列.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "循环队列.c"; sourceTree = "<group>"; };
+		0A299180212D062500C0376C /* 不同函数之间的相互调用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "不同函数之间的相互调用.c"; sourceTree = "<group>"; };
+		0A299182212D0E3F00C0376C /* 自己调用自己.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "自己调用自己.c"; sourceTree = "<group>"; };
+		0A299184212D357B00C0376C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +67,13 @@
 		0A229AE4212C06930003B603 /* 数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				0A299184212D357B00C0376C /* README.md */,
 				0A229AEC212C06A50003B603 /* 动态分配内存 */,
 				0A229AF2212C07000003B603 /* 数组 */,
 				0A229AEF212C06D00003B603 /* 链表 */,
 				0A229AF6212C072B0003B603 /* 栈 */,
 				0A29917C212CF08700C0376C /* 队列 */,
+				0A29917F212D05D100C0376C /* 递归 */,
 			);
 			path = "数据结构";
 			sourceTree = "<group>";
@@ -114,6 +119,15 @@
 				0A29917D212CF0A500C0376C /* 循环队列.c */,
 			);
 			path = "队列";
+			sourceTree = "<group>";
+		};
+		0A29917F212D05D100C0376C /* 递归 */ = {
+			isa = PBXGroup;
+			children = (
+				0A299180212D062500C0376C /* 不同函数之间的相互调用.c */,
+				0A299182212D0E3F00C0376C /* 自己调用自己.c */,
+			);
+			path = "递归";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A29917E212CF0A500C0376C /* 循环队列.c in Sources */,
+				0A299183212D0E3F00C0376C /* 自己调用自己.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
