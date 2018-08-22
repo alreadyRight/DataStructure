@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A299183212D0E3F00C0376C /* 自己调用自己.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A299182212D0E3F00C0376C /* 自己调用自己.c */; };
+		0A29918E212D40BB00C0376C /* A函数调用B函数.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A29918D212D40BB00C0376C /* A函数调用B函数.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,11 @@
 		0A299180212D062500C0376C /* 不同函数之间的相互调用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "不同函数之间的相互调用.c"; sourceTree = "<group>"; };
 		0A299182212D0E3F00C0376C /* 自己调用自己.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "自己调用自己.c"; sourceTree = "<group>"; };
 		0A299184212D357B00C0376C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0A299185212D38FB00C0376C /* 阶乘的循环使用.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "阶乘的循环使用.c"; sourceTree = "<group>"; };
+		0A299187212D39E500C0376C /* 阶乘的递归实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "阶乘的递归实现.c"; sourceTree = "<group>"; };
+		0A299189212D3BEF00C0376C /* 1+2+100的和.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1+2+100的和.c"; sourceTree = "<group>"; };
+		0A29918B212D405900C0376C /* 间接调用自己举例.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "间接调用自己举例.c"; sourceTree = "<group>"; };
+		0A29918D212D40BB00C0376C /* A函数调用B函数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "A函数调用B函数.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +131,11 @@
 			children = (
 				0A299180212D062500C0376C /* 不同函数之间的相互调用.c */,
 				0A299182212D0E3F00C0376C /* 自己调用自己.c */,
+				0A299185212D38FB00C0376C /* 阶乘的循环使用.c */,
+				0A299187212D39E500C0376C /* 阶乘的递归实现.c */,
+				0A299189212D3BEF00C0376C /* 1+2+100的和.c */,
+				0A29918B212D405900C0376C /* 间接调用自己举例.c */,
+				0A29918D212D40BB00C0376C /* A函数调用B函数.c */,
 			);
 			path = "递归";
 			sourceTree = "<group>";
@@ -186,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A299183212D0E3F00C0376C /* 自己调用自己.c in Sources */,
+				0A29918E212D40BB00C0376C /* A函数调用B函数.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
