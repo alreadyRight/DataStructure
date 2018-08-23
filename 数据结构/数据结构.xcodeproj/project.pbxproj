@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A29918E212D40BB00C0376C /* A函数调用B函数.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A29918D212D40BB00C0376C /* A函数调用B函数.c */; };
+		0A299190212D527E00C0376C /* 汉诺塔.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A29918F212D527E00C0376C /* 汉诺塔.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +40,7 @@
 		0A299189212D3BEF00C0376C /* 1+2+100的和.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1+2+100的和.c"; sourceTree = "<group>"; };
 		0A29918B212D405900C0376C /* 间接调用自己举例.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "间接调用自己举例.c"; sourceTree = "<group>"; };
 		0A29918D212D40BB00C0376C /* A函数调用B函数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "A函数调用B函数.c"; sourceTree = "<group>"; };
+		0A29918F212D527E00C0376C /* 汉诺塔.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "汉诺塔.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 				0A299189212D3BEF00C0376C /* 1+2+100的和.c */,
 				0A29918B212D405900C0376C /* 间接调用自己举例.c */,
 				0A29918D212D40BB00C0376C /* A函数调用B函数.c */,
+				0A29918F212D527E00C0376C /* 汉诺塔.c */,
 			);
 			path = "递归";
 			sourceTree = "<group>";
@@ -196,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A29918E212D40BB00C0376C /* A函数调用B函数.c in Sources */,
+				0A299190212D527E00C0376C /* 汉诺塔.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
