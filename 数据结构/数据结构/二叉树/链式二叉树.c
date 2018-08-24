@@ -30,15 +30,15 @@ int main(void){
     struct BTNode *pt = CreateBTree();
     printf("先序遍历-------------开始\n");
     PreTraverseBTree(pt);//先序
-    printf("先序遍历-------------结束\n");
-    
+    printf("先序遍历-------------结束\n\n");
+
     printf("中序遍历-------------开始\n");
     InTraverseBTree(pt);//中序
-    printf("中序遍历-------------结束\n");
-    
+    printf("中序遍历-------------结束\n\n");
+
     printf("后序遍历-------------开始\n");
     PostTraverseBTree(pt);//后序
-    printf("后序遍历-------------结束\n");
+    printf("后序遍历-------------结束\n\n");
     
     return 0;
 }

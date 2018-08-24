@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A899932212FA4220095EB36 /* 链式二叉树.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A899931212FA4220095EB36 /* 链式二叉树.c */; };
+		0A899935212FFE550095EB36 /* 快速排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A899934212FFE550095EB36 /* 快速排序.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,7 @@
 		0A29918D212D40BB00C0376C /* A函数调用B函数.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "A函数调用B函数.c"; sourceTree = "<group>"; };
 		0A29918F212D527E00C0376C /* 汉诺塔.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "汉诺塔.c"; sourceTree = "<group>"; };
 		0A899931212FA4220095EB36 /* 链式二叉树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "链式二叉树.c"; sourceTree = "<group>"; };
+		0A899934212FFE550095EB36 /* 快速排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快速排序.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 				0A29917C212CF08700C0376C /* 队列 */,
 				0A29917F212D05D100C0376C /* 递归 */,
 				0A899930212FA40A0095EB36 /* 二叉树 */,
+				0A899933212FFE3F0095EB36 /* 排序 */,
 			);
 			path = "数据结构";
 			sourceTree = "<group>";
@@ -152,6 +154,14 @@
 			path = "二叉树";
 			sourceTree = "<group>";
 		};
+		0A899933212FFE3F0095EB36 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				0A899934212FFE550095EB36 /* 快速排序.c */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A899932212FA4220095EB36 /* 链式二叉树.c in Sources */,
+				0A899935212FFE550095EB36 /* 快速排序.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
