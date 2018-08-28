@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A899935212FFE550095EB36 /* 快速排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A899934212FFE550095EB36 /* 快速排序.c */; };
+		0AE09A862133E18C00DC1211 /* hailstone.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AE09A852133E18C00DC1211 /* hailstone.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +43,7 @@
 		0A29918F212D527E00C0376C /* 汉诺塔.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "汉诺塔.c"; sourceTree = "<group>"; };
 		0A899931212FA4220095EB36 /* 链式二叉树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "链式二叉树.c"; sourceTree = "<group>"; };
 		0A899934212FFE550095EB36 /* 快速排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快速排序.c"; sourceTree = "<group>"; };
+		0AE09A852133E18C00DC1211 /* hailstone.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hailstone.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		0A229AE4212C06930003B603 /* 数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				0AE09A842133E17900DC1211 /* hailstone */,
 				0A299184212D357B00C0376C /* README.md */,
 				0A229AEC212C06A50003B603 /* 动态分配内存 */,
 				0A229AF2212C07000003B603 /* 数组 */,
@@ -162,6 +164,14 @@
 			path = "排序";
 			sourceTree = "<group>";
 		};
+		0AE09A842133E17900DC1211 /* hailstone */ = {
+			isa = PBXGroup;
+			children = (
+				0AE09A852133E18C00DC1211 /* hailstone.c */,
+			);
+			path = hailstone;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A899935212FFE550095EB36 /* 快速排序.c in Sources */,
+				0AE09A862133E18C00DC1211 /* hailstone.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
